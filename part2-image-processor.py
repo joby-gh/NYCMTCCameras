@@ -17,10 +17,10 @@ YOLO_WEIGHTS_PATH = 'yolov3-tiny.weights'
 YOLO_CLASSES_PATH = 'coco.names'
 CONFIDENCE_THRESHOLD = 0.3
 NMS_THRESHOLD = 0.4
-GOOGLE_SHEET_KEY = '1sMb-L7poTDFhlJeyGZFu9Ey0Mhqp0JTwOerAYEfaPYA'
+GOOGLE_SHEET_KEY = 'YOUR_GOOGLE_SHEET_KEY'  # Replace with your Google Sheet key
 WORKSHEET_NAME = 'ImageCaptures'
 DETECTION_SHEET_NAME = 'DetectionCounts'
-LOCATION_NAMES = ['QB & Van Dam', 'UL Entrance Thomson', 'UL from 43 & 27']  # List of location names
+LOCATION_NAMES = ['YOUR_CAMERA_LOCATION_1', 'YOUR_CAMERA_LOCATION_2', 'YOUR_CAMERA_LOCATION_3']  # Make sure to customize this list of location names
 
 # Download YOLO files
 os.system(f'wget {YOLO_CONFIG_URL} -O {YOLO_CONFIG_PATH}')

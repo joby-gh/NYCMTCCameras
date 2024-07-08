@@ -16,7 +16,7 @@ It is important to verify that the cameras you are analyzing are oriented correc
 The second code snippet retrieves a list of images from the ‘ImageCaptures’ worksheet and utilizes TinyYOLO and OpenCV for vehicle detection. Afterward, it generates a 'DetectionCounts' worksheet containing a date/time column, a column for counts at each location, and the corresponding file location for each count, providing an opportunity for manual count verification.
 
 ## List of NYC Traffic Cameras
-All traffic camera locations in NYC have been compiled into a [JSON](https://gist.github.com/camb416/f5a1b180a980b776d419) by @camb416 
+All traffic camera locations in NYC have been compiled into a [JSON](https://gist.github.com/camb416/f5a1b180a980b776d419) by @camb416  
 
 ## Dependencies
 Dependencies are listed in requirements.txt and can be installed with the following command:

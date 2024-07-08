@@ -10,7 +10,7 @@ This code was developed for Google Colab and may require some modification to wo
 The first code snippet captures JPG stills from the camera and saves them to a folder named "annotated frames" in the root directory of your Google Drive. It also records the image locations and corresponding filenames in a Google Spreadsheet named "ImageCaptues." After a 10-second delay, the process repeats. To stop the image capturing, use a keyboard interrupt. Other multi-camera approaches appeared to cycle through the cameras randomly, resulting in inconsistent counts. Saving the images, on the other hand, provided a more reliable outcome.
 
 > [!TIP]
-Make sure the camera is facing the same direction]
+Make sure the camera is facing the same direction!
 It is important to verify that the cameras you are analyzing are oriented correctly during the timeframe you are studying, as they may change direction periodically.
 
 The second code snippet retrieves a list of images from the ‘ImageCaptures’ worksheet and utilizes TinyYOLO and OpenCV for vehicle detection. Afterward, it generates a 'DetectionCounts' worksheet containing a date/time column, a column for counts at each location, and the corresponding file location for each count, providing an opportunity for manual count verification.
